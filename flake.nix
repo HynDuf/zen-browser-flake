@@ -17,7 +17,6 @@
       pkgs = import nixpkgs {
         inherit system;
       };
-"
       runtimeLibs = with pkgs; [
         libGL libGLU libevent libffi libjpeg libpng libstartup_notification libvpx libwebp
         stdenv.cc.cc fontconfig libxkbcommon zlib freetype
