@@ -9,10 +9,10 @@
     let
 
       system = "x86_64-linux";
-      version = "1.14.10b";
+      version = "1.14.11b";
       downloadUrl = {
         generic.url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-x86_64.tar.xz";
-        generic.sha256 = "17k1ajj9ysyvg662q1i7gh3nkl9njmm2f2iwnhi8gs1pdrd1hka0";
+        generic.sha256 = "06rx4hb6d1gy1kja73cmkywyvp5i0mb4szv1drih9xxla4ik8lsh";
       };
 
       pkgs = import nixpkgs {
