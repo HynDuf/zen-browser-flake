@@ -12,7 +12,7 @@
       version = "1.17.4b";
       downloadUrl = {
         generic.url = "https://github.com/zen-browser/desktop/releases/download/${version}/zen.linux-x86_64.tar.xz";
-        generic.sha256 = "1ww5wmc769a3i8bp4b40kynyhl4j47xmz0pgb3li8hn51dqal5zp";
+        generic.sha256 = "1rhm6ih0g56ngq0578x82aw148f2mf637dc6pz0jx05a86f2am0x";
       };
 
       pkgs = import nixpkgs {
